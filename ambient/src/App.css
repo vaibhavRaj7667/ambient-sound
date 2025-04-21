@@ -1,0 +1,111 @@
+/* App.css or index.css */
+
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.root {
+  background-image: url("https://blogger.googleusercontent.com/img/a/AVvXsEiIzP5NjHiYRLgkA9QSfNqcsUP73I4PaS9Ufsfyr83n53fXIYXp14P1nJlQIfqZzxNp8MUNDQTDQ3BLHgve9VUe4h5oF3jCL1mnZ9Ra1_lIq4BItYDMMFHZU-73MLs3WLXgo9z1eB7_6v6DyZb2_9FfFKP-pBb-GQoniP6oOdL6TnRfpOfGb4sLnpqWZaM=s0");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  /* Always center the image */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* background-color: aquamarine; */
+  width: 800px;
+  justify-content: space-around;
+
+}
+
+.rain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 0.2;
+  height: 230px;
+  width: 230px;
+  margin: 10px;
+  border-radius: 7px;
+
+
+}
+
+.raining {
+  background-image: url('https://i.pinimg.com/736x/e2/ec/51/e2ec51531a27aa359e7646ffda4910c8.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 230px;
+
+
+}
+
+.forest {
+  background-image: url('https://i.pinimg.com/736x/b8/68/5a/b8685a93b8a61da125f84afc104ce072.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 230px;
+
+}
+
+.thunder {
+  background-image: url('https://i.pinimg.com/736x/5f/c8/bc/5fc8bc6d4ed1d675e112e29e4f98be2f.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 230px;
+}
+
+.ocean {
+  background-image: url('https://i.pinimg.com/736x/0b/ff/9f/0bff9fb7d150c1b227f31e364ea63898.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 230px;
+}
+
+.fireplace {
+  background-image: url('https://i.pinimg.com/736x/8e/e4/3b/8ee43bbe18f138904999d59f13fa509b.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 230px;
+}
+
+.cafe {
+  background-image: url('https://i.pinimg.com/736x/2c/25/ee/2c25eec628f167960491192df9feb88c.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 230px;
+}
+
+input[type="range"] {
+
+  color: aqua;
+
+}
+
+.bro {
+  filter: blur(1px);
+}
