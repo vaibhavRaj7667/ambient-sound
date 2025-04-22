@@ -28,5 +28,5 @@ This project is a simple web-based ambient sound player designed to help you rel
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/ambient-sound-project.git
+git clone https://github.com/vaibhavRaj7667/ambient-sound
 cd ambient-sound-project
